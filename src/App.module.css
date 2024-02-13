@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  /* color: white; */
+}
+
+.App {
+  text-align: center;
+  padding: 5px;
+  /* border: 1px solid red; */
+  height: 80vh;
+  width: 70vw;
+  background-color: rgb(96, 204, 218);
+  border-radius: 10px;
+}
+
+.SearchBar {
+  height: 20%;
+}
+
+.MainWeather {
+  height: 75%;
+}
+
+.ExtraWeather {
+  height: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active,
+a:hover,
+a.active {
+  color: red;
+}

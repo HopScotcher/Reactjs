@@ -1,0 +1,71 @@
+.icon {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  background-color: rgb(96, 204, 218);
+  /* border: 1px solid yellow; */
+}
+
+.mainWeather {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+
+.mainTemp {
+  font-size: 20px;
+  /* border: 1px solid red; */
+  margin-bottom: 9px;
+}
+
+.description {
+  /* border: 1px solid black; */
+  font-weight: 300;
+  font-size: large;
+}
+
+.imgContainer {
+  /* border: 1px solid pink; */
+}
+.detailsParent {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  width: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  /* background-color: yellow; */
+  /* border: 1px dotted; */
+  width: 100%;
+  margin: 5px;
+}
+
+ul > li {
+  /* background-color: red; */
+  /* margin: 20px; */
+  list-style-type: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+ul > li > span {
+  display: block;
+}
+
+ul > li > span:first-child {
+  font-size: large;
+}
+
+ul > li > span:last-child {
+  font-weight: 300;
+}
